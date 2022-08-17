@@ -1,12 +1,13 @@
-import Rules from './component/rules';
+import Game from "./component/game";
+import { useState } from "react";
 import './App.css';
 
 function App() {
+  const [dis, setDis] = useState('block');
   return (
-    <div className="w-screen h-screen text-center bg-myBlue" >
+    <div className="w-screen h-screen text-center bg-myBlue overflow-hidden" >
     <h1>Yo</h1>
-
-      <Rules />
+      <Game dis={dis} setDis={setDis}/>
     </div>
   );
 }
