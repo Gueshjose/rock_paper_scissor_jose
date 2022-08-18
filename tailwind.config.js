@@ -10,9 +10,14 @@ module.exports = {
       scoreVC:'#514e61',
       feuille: '#4c65f4',
       ciseaux:'#eba217',
-      pierre:'#e03757'
+      pierre:'#e03757',
+      green:'#16a34a',
+      cyan:'#22d3ee'
     },
     extend: {
+      backgroundImage:{
+        'myBack': "radial-gradient(circle, rgba(31,56,87,1) 0%, rgba(19,22,57,1) 75%);",
+      },
       margin: {
         'center': '25vh',
       },
