@@ -8,7 +8,7 @@ function Choice(props) {
     
     
     return(
-        <div className={"w-1/3 h-[75vh] bg-[url('./images/bg-triangle.svg')] mx-auto bg-auto bg-no-repeat bg-center relative"}>
+        <div className={"lg:w-1/3 md:w-[90%] h-[75vh] bg-[url('./images/bg-triangle.svg')] mx-auto bg-auto bg-no-repeat bg-center relative"}>
                 <Feuille setChoix={props.setChoix} />
                 <Sciseaux setChoix={props.setChoix} />
                 <Pierre setChoix={props.setChoix} />                

@@ -9,7 +9,7 @@ import React from 'react';
 
 const Resultat = (props) => {
     return (
-        <div className="w-2/3 h-[75vh] mx-auto relative grid grid-cols-3 mt-16  ">
+        <div className="w-2/3 h-[75vh] mx-auto relative grid grid-cols-3 lg:mt-16  mt-2  ">
         <div className='flex md:flex-col-reverse lg:flex-col  '>
             <div className="row-span-2">
                 <h2 className="text-whiteC text-xl font-black text-center">YOU PICKED </h2>
@@ -29,9 +29,9 @@ const Resultat = (props) => {
                 }
             </div>
         </div>
-        <div className='flex flex-col mt-40 '>
+        <div className='flex flex-col lg:mt-40 mt-56 '>
             
-            <div className="flex row-span-2 content-center ">
+            <div className="flex lg:row-span-2 rox-span-8 content-center ">
             {
                     ((props.choix=="pierre" && props.ia == "sciseaux") || (props.choix=="sciseaux" && props.ia == "feuille")|| (props.choix=="feuille" && props.ia == "pierre")) &&
                         <Victoire score={props.score} setScore={props.setScore} setChoix={props.setChoix} setIa={props.setIa} />

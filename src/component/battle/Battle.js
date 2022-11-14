@@ -12,7 +12,7 @@ const Battle = (props) => {
     
     
     return (
-        <div className="w-2/3 h-[75vh] mx-auto relative grid grid-cols-2 mt-16  ">
+        <div className="w-2/3 h-[75vh] mx-auto relative grid grid-cols-2 grid-row-1 lg:mt-16  mt-2 ">
             <div className='flex md:flex-col-reverse lg:flex-col  '>
                 <div className="row-span-2">
                     <h2 className="text-whiteC text-xl font-black text-center">YOU PICKED </h2>

@@ -30,7 +30,7 @@ const Game = (props) => {
                     <Resultat score={score} setScore={setScore} choix={choix} ia={ia} setIa={setIa} setChoix={setChoix} />
             }
         
-            <button className='absolute w-1/12 h-[5vh] text-whiteC  border-2 border-borderS bottom-5 right-6 rounded-lg' onClick={()=>props.setDis('block')}>
+            <button className='absolute lg:w-1/12 w-1/6 lg:h-[5vh] h-[6vh] text-whiteC  border-2 border-borderS bottom-5 lg:left-[90%] md:left-[43%] rounded-lg' onClick={()=>props.setDis('block')}>
                 RULES
             </button>
         </div>  
